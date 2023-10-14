@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3215A6852ADAA33700F0808A /* NorthAmerica.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3215A6832ADAA33700F0808A /* NorthAmerica.cpp */; };
+		3215A6882ADAA34E00F0808A /* Africa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3215A6862ADAA34E00F0808A /* Africa.cpp */; };
+		326B9AFD2ACEA34800BFA93A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9AFC2ACEA34800BFA93A /* main.cpp */; };
+		326B9B052ACEA37700BFA93A /* AnimalWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B032ACEA37700BFA93A /* AnimalWorld.cpp */; };
+		326B9B082ACEA38D00BFA93A /* Continent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B062ACEA38D00BFA93A /* Continent.cpp */; };
+		326B9B0B2ACEA3B200BFA93A /* Herbivore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B092ACEA3B200BFA93A /* Herbivore.cpp */; };
+		326B9B0E2ACEA3C600BFA93A /* Carnivore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B0C2ACEA3C600BFA93A /* Carnivore.cpp */; };
+		326B9B112ACEA3E400BFA93A /* Lion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B0F2ACEA3E400BFA93A /* Lion.cpp */; };
+		326B9B142ACEA3F600BFA93A /* Bison.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B122ACEA3F600BFA93A /* Bison.cpp */; };
+		326B9B172ACEA3FE00BFA93A /* Wolf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B152ACEA3FE00BFA93A /* Wolf.cpp */; };
+		326B9B1A2ACEA41500BFA93A /* Wilderbeest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 326B9B182ACEA41500BFA93A /* Wilderbeest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		326B9AF72ACEA34800BFA93A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3215A6832ADAA33700F0808A /* NorthAmerica.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NorthAmerica.cpp; sourceTree = "<group>"; };
+		3215A6842ADAA33700F0808A /* NorthAmerica.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NorthAmerica.hpp; sourceTree = "<group>"; };
+		3215A6862ADAA34E00F0808A /* Africa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Africa.cpp; sourceTree = "<group>"; };
+		3215A6872ADAA34E00F0808A /* Africa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Africa.hpp; sourceTree = "<group>"; };
+		326B9AF92ACEA34800BFA93A /* AnimalWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		326B9AFC2ACEA34800BFA93A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		326B9B032ACEA37700BFA93A /* AnimalWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AnimalWorld.cpp; sourceTree = "<group>"; };
+		326B9B042ACEA37700BFA93A /* AnimalWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AnimalWorld.hpp; sourceTree = "<group>"; };
+		326B9B062ACEA38D00BFA93A /* Continent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Continent.cpp; sourceTree = "<group>"; };
+		326B9B072ACEA38D00BFA93A /* Continent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Continent.hpp; sourceTree = "<group>"; };
+		326B9B092ACEA3B200BFA93A /* Herbivore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Herbivore.cpp; sourceTree = "<group>"; };
+		326B9B0A2ACEA3B200BFA93A /* Herbivore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Herbivore.hpp; sourceTree = "<group>"; };
+		326B9B0C2ACEA3C600BFA93A /* Carnivore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Carnivore.cpp; sourceTree = "<group>"; };
+		326B9B0D2ACEA3C600BFA93A /* Carnivore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Carnivore.hpp; sourceTree = "<group>"; };
+		326B9B0F2ACEA3E400BFA93A /* Lion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lion.cpp; sourceTree = "<group>"; };
+		326B9B102ACEA3E400BFA93A /* Lion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lion.hpp; sourceTree = "<group>"; };
+		326B9B122ACEA3F600BFA93A /* Bison.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bison.cpp; sourceTree = "<group>"; };
+		326B9B132ACEA3F600BFA93A /* Bison.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bison.hpp; sourceTree = "<group>"; };
+		326B9B152ACEA3FE00BFA93A /* Wolf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wolf.cpp; sourceTree = "<group>"; };
+		326B9B162ACEA3FE00BFA93A /* Wolf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wolf.hpp; sourceTree = "<group>"; };
+		326B9B182ACEA41500BFA93A /* Wilderbeest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wilderbeest.cpp; sourceTree = "<group>"; };
+		326B9B192ACEA41500BFA93A /* Wilderbeest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Wilderbeest.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326B9AF62ACEA34800BFA93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326B9AF02ACEA34800BFA93A = {
+			isa = PBXGroup;
+			children = (
+				326B9AFB2ACEA34800BFA93A /* AnimalWorld */,
+				326B9AFA2ACEA34800BFA93A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326B9AFA2ACEA34800BFA93A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326B9AF92ACEA34800BFA93A /* AnimalWorld */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326B9AFB2ACEA34800BFA93A /* AnimalWorld */ = {
+			isa = PBXGroup;
+			children = (
+				326B9AFC2ACEA34800BFA93A /* main.cpp */,
+				3215A6862ADAA34E00F0808A /* Africa.cpp */,
+				3215A6872ADAA34E00F0808A /* Africa.hpp */,
+				3215A6832ADAA33700F0808A /* NorthAmerica.cpp */,
+				3215A6842ADAA33700F0808A /* NorthAmerica.hpp */,
+				326B9B032ACEA37700BFA93A /* AnimalWorld.cpp */,
+				326B9B042ACEA37700BFA93A /* AnimalWorld.hpp */,
+				326B9B062ACEA38D00BFA93A /* Continent.cpp */,
+				326B9B072ACEA38D00BFA93A /* Continent.hpp */,
+				326B9B092ACEA3B200BFA93A /* Herbivore.cpp */,
+				326B9B0A2ACEA3B200BFA93A /* Herbivore.hpp */,
+				326B9B0C2ACEA3C600BFA93A /* Carnivore.cpp */,
+				326B9B0D2ACEA3C600BFA93A /* Carnivore.hpp */,
+				326B9B0F2ACEA3E400BFA93A /* Lion.cpp */,
+				326B9B102ACEA3E400BFA93A /* Lion.hpp */,
+				326B9B122ACEA3F600BFA93A /* Bison.cpp */,
+				326B9B132ACEA3F600BFA93A /* Bison.hpp */,
+				326B9B162ACEA3FE00BFA93A /* Wolf.hpp */,
+				326B9B152ACEA3FE00BFA93A /* Wolf.cpp */,
+				326B9B182ACEA41500BFA93A /* Wilderbeest.cpp */,
+				326B9B192ACEA41500BFA93A /* Wilderbeest.hpp */,
+			);
+			path = AnimalWorld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326B9AF82ACEA34800BFA93A /* AnimalWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326B9B002ACEA34800BFA93A /* Build configuration list for PBXNativeTarget "AnimalWorld" */;
+			buildPhases = (
+				326B9AF52ACEA34800BFA93A /* Sources */,
+				326B9AF62ACEA34800BFA93A /* Frameworks */,
+				326B9AF72ACEA34800BFA93A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalWorld;
+			productName = AnimalWorld;
+			productReference = 326B9AF92ACEA34800BFA93A /* AnimalWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326B9AF12ACEA34800BFA93A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					326B9AF82ACEA34800BFA93A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 326B9AF42ACEA34800BFA93A /* Build configuration list for PBXProject "AnimalWorld" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326B9AF02ACEA34800BFA93A;
+			productRefGroup = 326B9AFA2ACEA34800BFA93A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326B9AF82ACEA34800BFA93A /* AnimalWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326B9AF52ACEA34800BFA93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326B9B142ACEA3F600BFA93A /* Bison.cpp in Sources */,
+				326B9B172ACEA3FE00BFA93A /* Wolf.cpp in Sources */,
+				326B9B0B2ACEA3B200BFA93A /* Herbivore.cpp in Sources */,
+				326B9B0E2ACEA3C600BFA93A /* Carnivore.cpp in Sources */,
+				326B9B052ACEA37700BFA93A /* AnimalWorld.cpp in Sources */,
+				326B9B112ACEA3E400BFA93A /* Lion.cpp in Sources */,
+				3215A6852ADAA33700F0808A /* NorthAmerica.cpp in Sources */,
+				326B9B082ACEA38D00BFA93A /* Continent.cpp in Sources */,
+				326B9B1A2ACEA41500BFA93A /* Wilderbeest.cpp in Sources */,
+				326B9AFD2ACEA34800BFA93A /* main.cpp in Sources */,
+				3215A6882ADAA34E00F0808A /* Africa.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		326B9AFE2ACEA34800BFA93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		326B9AFF2ACEA34800BFA93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		326B9B012ACEA34800BFA93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		326B9B022ACEA34800BFA93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326B9AF42ACEA34800BFA93A /* Build configuration list for PBXProject "AnimalWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B9AFE2ACEA34800BFA93A /* Debug */,
+				326B9AFF2ACEA34800BFA93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326B9B002ACEA34800BFA93A /* Build configuration list for PBXNativeTarget "AnimalWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326B9B012ACEA34800BFA93A /* Debug */,
+				326B9B022ACEA34800BFA93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326B9AF12ACEA34800BFA93A /* Project object */;
+}
